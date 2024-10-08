@@ -1,0 +1,72 @@
+{
+  "expo": {
+    "name": "a2b",
+    "slug": "a2bapp",
+    "version": "3.0.1",
+    "platforms": ["ios", "android"],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+
+      "bundleIdentifier": "com.digitalInnovation.a2b",
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "fetch",
+          "remote-notification"
+        ],
+        "NSLocationWhenInUseUsageDescription": "This app needs access to your location to display Google Maps and provide directions.",
+        "NSCameraUsageDescription": "This app requires access to your camera for taking photos.",
+        "NSPhotoLibraryUsageDescription": "This app needs access to your photo library for uploading pictures.",
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": false
+        }
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyDqWRPH5ocus24BKGXLNnryvXbPTx7w9Bc",
+        "usesNonExemptEncryption": false
+      },
+      "entitlements": {
+        "aps-environment": "production"
+      },
+      "buildNumber": "2"
+    },
+    "android": {
+      "versionCode": 4,
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDqWRPH5ocus24BKGXLNnryvXbPTx7w9Bc"
+        }
+      },
+      "package": "com.aftabameen.a2b_app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e42a3ff3-f064-4549-88b2-07cf498f7e59"
+      }
+    },
+    "owner": "a2b-expo",
+    "plugins": [
+      "expo-build-properties",
+      "expo-font",
+      "expo-secure-store"
+    ]
+  }
+}

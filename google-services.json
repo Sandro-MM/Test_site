@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1097976721200",
+    "project_id": "a2b-mobile-49305",
+    "storage_bucket": "a2b-mobile-49305.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097976721200:android:5878b7ef101daad001a2f5",
+        "android_client_info": {
+          "package_name": "com.aftabameen.a2b_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRxDPihtHZl63m9i5fkdfCLtY8rq1Yj7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097976721200:android:2057dec4a1d6465901a2f5",
+        "android_client_info": {
+          "package_name": "mobile.digitalinnovation.a2b"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRxDPihtHZl63m9i5fkdfCLtY8rq1Yj7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

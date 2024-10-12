@@ -63,6 +63,7 @@
       }
     },
     "owner": "a2b-expo",
+
     "plugins": [
       "expo-build-properties",
       "expo-font",
